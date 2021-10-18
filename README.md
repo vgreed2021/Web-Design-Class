@@ -1,4 +1,4 @@
-# Web-Design-Class
+## Web-Design-Class
 
 <h1>Project List</h1>
 
