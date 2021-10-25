@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    padding-top: 20px;
+    padding: 20px 0;
     background-color: #678C61;
     border-radius: 20px 20px 0 0;
 }
@@ -77,4 +77,15 @@ footer {
     font-size: 16px;
     text-align: center;
     border-radius: 0 0 15px 15px;
+}
+
+.active {
+    background-color: #A8BF75;
+    color: #678C61; 
+}
+
+.pro_head {
+    text-align: center;
+    color: #BCD97E;
+    font: 18px;
 }
