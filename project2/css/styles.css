@@ -1,5 +1,6 @@
 body {
     background-color: #BFBFBF;
+    font-family: 'Oxygen', sans-serif;
 }
 
 #container {
@@ -7,12 +8,15 @@ body {
     width: 1200px;
     margin: 20px auto;
     border-radius: 15px;
+    box-shadow: 3px 3px 5px #404040;
 }
 
 header {
     padding: 20px 0;
     background-color: #678C61;
     border-radius: 20px 20px 0 0;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    text-shadow: 2px 2px 2px #404040;
 }
 
 header img {
