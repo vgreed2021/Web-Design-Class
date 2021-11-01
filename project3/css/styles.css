@@ -1,0 +1,9 @@
+body {
+background-color: #698C6E;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
