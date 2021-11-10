@@ -15,6 +15,8 @@ img {
 #container {
     background-color: #E7C886;
     margin: 10px;
+    text-align: center;
+    border: 2px solid #18474D;
 }
 
 header {
@@ -40,8 +42,8 @@ nav li {
 
 nav li a {
     display: block;
-    background-color: #F2B05E;
-    color: #18474D;
+    background-color: #869D83;
+    color: #191D20;
     height: 40px;
     line-height: 40px;
     text-align: center;
@@ -77,8 +79,8 @@ section img, aside img {
 
 .button {
     display: block;
-    background-color: #F2B05E;
-    color: #18474D;
+    background-color: #869D83;
+    color: #191D20;
     height: 40px;
     width: 200px;
     line-height: 40px;
@@ -98,6 +100,27 @@ footer {
     color: #18474D;
     text-align: center;
 }
+
+.single_col {
+    width: 83%;
+}
+
+audio, iframe {
+    display: block;
+    margin: 20px auto;
+    width: 75%;
+}
+
+.gallery_img {
+    border: 4px solid #5C7358;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+table {
+    display: none;
+}
+
 
 /* Tablet Styles */
 @media(min-width: 768px) {
@@ -131,8 +154,70 @@ footer {
     section, aside {
         width: 50%;
     }
+
+    .col img {
+        width: 50%;
+        border-radius: 10px;
+        border: 4px solid #5C7358;
+    }
+
+    .single_col {
+        width: 83%;
+    }
 }
 
 
 /* Desktop Styles */
 
+@media(min-width: 1024px) {
+
+    #container {
+        width: 75%;
+        margin: 20px auto;
+        border: 4px #18474D;
+        border-radius: 20px;
+    }
+
+    header {
+        border-radius: 20px 20px 0 0;
+    }
+
+    nav li a {
+        margin: 0 20px;
+    }
+
+    #lower_flex {
+        display: flex;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    .col img {
+        width: 100%;
+    }
+
+    .single_col {
+        width: 100%;
+    }
+
+    table, tr, td {
+        border: 4px solid #DC6F02;
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    table img {
+        width: 100%;
+    }
+
+    .gallery {
+        display: none;
+    }
+
+    table{
+        display: block;
+    }
+
+}
