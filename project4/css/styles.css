@@ -105,9 +105,13 @@ footer {
     width: 83%;
 }
 
-audio, iframe {
+audio {
     display: block;
     margin: 20px auto;
+    width: 75%;
+}
+iframe {
+    display: block;
     width: 75%;
 }
 
