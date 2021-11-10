@@ -1,0 +1,106 @@
+/* Golbal Styles */
+body {
+    background-color: #F2B05E;
+}
+
+img {
+    display: block;
+    background-color: rgba(245, 245, 245, 0.521);
+    max-width: 100%;
+    margin: 0 auto;
+    
+}
+
+/* Mobile Styles */
+#container {
+    background-color: #E7C886;
+    margin: 10px;
+}
+
+header {
+    background-image: url('../images/background3.png');
+    background-size: cover;
+    padding: 70px 0;  
+}
+
+header h1 {
+    color: #EDBA59;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    background-color: #F2B05E;
+    color: #18474D;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+nav li a:hover {
+    background-color: #DC6F02;
+    text-shadow: .5px .5px .5px #000;
+}
+
+nav, section, aside, .col, footer {
+    background-color: #FEA286;
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid #DC6F02;
+    border-radius: 10px;
+}
+
+h2, h3 {
+    color: #18474D;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 20px;
+    text-align: center;
+}
+
+section img, aside img {
+    width: 65%;
+}
+
+.button {
+    display: block;
+    background-color: #F2B05E;
+    color: #18474D;
+    height: 40px;
+    width: 200px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px auto;
+    border-radius: 10px; 
+}
+
+.button:hover {
+    background-color: #DC6F02;
+    text-shadow: .25px .25px .25px #000;
+}
+
+footer {
+    color: #18474D;
+    text-align: center;
+}
+
+/* Tablet Styles */
+
+
+/* Desktop Styles */
+
